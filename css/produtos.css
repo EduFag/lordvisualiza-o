@@ -1,0 +1,161 @@
+header {
+    background-color: #0000009f;
+}
+
+.section-inicial {
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://img.freepik.com/fotos-gratis/bife-de-file-grelhado-na-grelha-de-madeira-rustica-gerado-por-ia_188544-26079.jpg?w=1060&t=st=1698012981~exp=1698013581~hmac=202834d0f1d7c083b36d5a925c9020c4db70922da3664603f941686e82ce8f63);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-inicial .background {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.section-inicial .background .textfield {
+    height: 30%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+}
+
+.section-inicial .background .textfield h1 {
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+
+#s1 .box {
+    margin-top: 100px;
+}
+
+#s1 .box .img {
+    width: 40%;
+    text-align: center;
+    margin-right: 15%;
+}
+
+#s1 .box .img img {
+    width: 550px;
+}
+
+#s1 .box .textfield {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#s2 .box {
+    margin-top: 50px;
+    flex-direction: column;
+    width: 100%;
+}
+
+#s2 .box h1 {
+    margin-bottom: 100px;
+}
+
+#h1p {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+
+.container {
+    margin: 40px auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 80px;
+    grid-row-gap: 40px;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .card {
+    background: rgba(0, 0, 0, 0.264);
+    height: auto;
+    box-shadow: 0 3px 30px rgba(71, 71, 71, 0.23);
+    border-radius: 5%;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 5% 5% 0 0;
+  }
+
+  #painel1 {
+    background-image: url(/img/painel01.jpg);
+  }
+  #painel2 {
+    background-image: url(/img/painel02.jpg);
+  }
+  #painel3 {
+    background-image: url(/img/painel03.jpg);
+  }
+  #painel4 {
+    background-image: url(/img/painel04.jpg);
+  }
+  #painel5 {
+    background-image: url(/img/painel05.jpg);
+  }
+  #painel6 {
+    background-image: url(/img/painel06.jpg);
+  }
+  #painel7 {
+    background-image: url(/img/painel07.jpg);
+  }
+
+  .card-img h2 {
+    background-color: rgba(0, 0, 0, 0.264);
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  .card-content {
+    margin: 10% 10% 15% 15%;
+  }
+
+  .card-content h3 {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-top: 5%;
+  }
+
+  #s3 {
+    margin-top: 150px;
+  }
+
+
+footer {
+    height: 100vh;
+}

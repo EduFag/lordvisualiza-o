@@ -1,0 +1,134 @@
+header {
+    background-color: #0000009f;
+}
+
+.section-inicial {
+    width: 100%;
+    height: 70vh;
+    background-image: url(/img/parceiros.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-inicial .background {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.section-inicial .background .textfield {
+    height: 30%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+}
+
+.section-inicial .background .textfield h1 {
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+
+#s1 .box {
+    margin-top: 200px;
+}
+
+#s1 .box .img {
+    width: 40%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+#s1 .box .img img {
+    width: 400px;
+}
+
+#s1 .box .textfield {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#s2 .box {
+    margin-top: 100px;
+}
+
+.MPVVS {
+    width: 50%;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: -100px;
+}
+
+.mpvvs {
+    margin-top: 10%;
+}
+
+.mpvvs h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.mpvvs p {
+    text-align: justify;
+}
+
+#s3 .box {
+    margin-top: 100px;
+}
+
+#s3 .box .img {
+    width: 40%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#s3 .box .img figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff76;
+    border-radius: 360px;
+    width: 85%;
+    margin-left: 15%;
+}
+
+#s3 .box .img figure img {
+    width: 300px;
+}
+
+#s3 .box .img figure figcaption {
+    background-color: #222;
+    color: #fff;
+    width: 60%;
+}
+
+#s3 .box .textfield {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+}
+
+footer {
+    height: 100vh;
+}

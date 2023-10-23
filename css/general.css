@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Source Sans 3', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1d1d20;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.box h1 {
+    font-size: 60px;
+}
+
+#s1 {
+    overflow-x: hidden;
+}
+#s2 {
+    overflow-x: hidden;
+}
+#s3 {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-top: 2%;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    width: 120px;
+    margin-left: 10%;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #b4b4b4;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    padding-bottom: 5px;
+    transition: .3s;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    /* text-transform: uppercase; */
+}
+
+.nav-list a::after {
+    content: " ";
+    width: 0%;
+    height: 1.5px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-list a:hover::after{
+    width: 100%;
+}
+
+.nav-list a:hover {
+    color: #fff;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+header.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+    transition: 0.3s;
+    background-color: black;
+}
+header.active .line2 {
+    opacity: 0;;
+    transition: 0.3s;
+}
+header.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+    transition: 0.3s;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        z-index: 2;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        display: none;
+    }
+
+    .nav-list a {
+        font-size: 30px;
+        margin-top: 2%;
+        color: black;
+        letter-spacing: 5px;
+        text-transform: capitalize;
+    }
+
+    .mobile-menu {
+        display: block;
+        z-index: 3;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+        display: flex;
+        transition: transform 0.3s ease-in;
+    }
+
+
+    header {
+        width: 95%;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-left: 35%;
+    }
+
+    main.none {
+        display: none;
+    }
+}
+
+/* header */
+
+main {
+    height: auto;
+    background-image: url(/img/fundoEscuro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    /* background-color: darkgray; */
+}
+
+footer {
+    overflow-x: hidden;
+}
